@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Input from './components/Input'
+import Validation from './components/Validation'
 import '../src/App.css'
 
 export default class App extends Component {
@@ -24,8 +25,9 @@ export default class App extends Component {
         <Input 
           currentLength={this.state.inputLength} 
           getLength={this.getLengthHandler}
-          value={this.state.inputValue}
-           />
+          value={this.state.inputValue} />
+          
+        <Validation length={this.state.inputLength} />
       </div>
     )
   }

@@ -7,7 +7,7 @@ export default function Input(props) {
       className="Input" 
       value={props.value}
       onChange={props.getLength}/>
-      <p style={{textAlign: 'center', fontSize: '2rem'}}>{props.currentLength}</p>
+      <p style={{textAlign: 'center', fontSize: '5rem'}}>{props.currentLength}</p>
     </div>
   )
 }

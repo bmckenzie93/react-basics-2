@@ -9,3 +9,19 @@
   padding: 3rem;
   font-size: 2rem;
 }
+
+.Validation {
+  display: block;
+  text-align: center;
+  color: brown;
+}
+
+.Char {
+  display: inline-block;
+  padding: 1rem;
+  text-align: center;
+  margin: 1rem;
+  border: 1px solid #333;
+  box-shadow: 0 .2rem .5rem #333;
+  background-color: #f4f4f4;
+}
