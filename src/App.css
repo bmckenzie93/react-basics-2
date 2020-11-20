@@ -2,11 +2,11 @@
   text-align: center;
 }
 
-.Input {
+.input {
   margin: 2rem auto;
   display: block;
   min-width: 50%;
-  padding: 3rem;
+  padding: 1rem 3rem;
   font-size: 2rem;
 }
 
